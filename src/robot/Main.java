@@ -1,3 +1,5 @@
+package robot;
+
 import robot.Robot;
 
 public class Main {
