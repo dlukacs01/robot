@@ -86,6 +86,7 @@ public class Robot {
             // [if we have to go back]
             if(this.no_further) {
 
+                // If we are on the starter cell, we dont have to go back, since that is our starting point
                 if(this.cells[this.current_row][this.current_col] != 1) {
 
                     int i = 0;
